@@ -36,7 +36,7 @@ export default function Coronavirus() {
         <div className="w-full flex flex-col md:flex-row lg:flex-row gap-10 sm:w-auto">
           <div className="w-full sm:w-auto ">
             <Image
-              src="/Img02.jpg"
+              src="/covid0.svg"
               alt="coronavirus"
               width={550}
               height={400}
@@ -107,7 +107,7 @@ export default function Coronavirus() {
           </div>
           <div className="w-full sm:w-auto ">
             <Image
-              src="/Img01.jpg"
+              src="/covid1.svg"
               alt="coronavirus"
               width={550}
               height={400}
