@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import { FaBug } from "react-icons/fa";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import Button from "./Button";
@@ -39,7 +38,7 @@ export default function Coronavirus() {
             <Image
               src="/Img02.jpg"
               alt="coronavirus"
-              width={850}
+              width={550}
               height={400}
               className="rounded-sm"
             />
@@ -110,7 +109,7 @@ export default function Coronavirus() {
             <Image
               src="/Img01.jpg"
               alt="coronavirus"
-              width={850}
+              width={550}
               height={400}
               className="rounded-sm"
             />
