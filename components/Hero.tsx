@@ -14,12 +14,15 @@ export default function Hero() {
           <h1 className="text-3xl lg:text-6xl text-[#6F42C1] font-bold">
             stay safe. stay Home.
           </h1>
-          <p className="text-xl font-normal">
-            Amet minim mollit non deserunt ullamco est sit do amet sint officia.
-          </p>
-          <p className="text-xl font-normal">
-            Velit officia consequat duis enim velit mollit.
-          </p>
+          <div className="mt-5">
+            <p className="text-xl text-slate-600 font-normal">
+              Amet minim mollit non deserunt ullamco est sit do amet sint
+              officia.
+            </p>
+            <p className="text-xl text-slate-600 font-normal">
+              Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
           <div className="mt-5">
             <Button
               type="button"

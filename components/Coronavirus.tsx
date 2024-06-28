@@ -48,21 +48,21 @@ export default function Coronavirus() {
             <h1 className="text-xl text-[#6F42C1] font-bold">
               What is coronavirus?
             </h1>
-            <p className="text-sm font-normal">
+            <p className="text-sm font-normal text-slate-600">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation
             </p>
             <div className="w-full flex flex-col gap-2 pb-10">
-              <p className=" flex gap-2 items-center text-sm">
+              <p className=" flex gap-2 items-center text-sm text-slate-600">
                 <IoIosCheckmarkCircle color="#6F42C1" />
                 Amet minim mollit non deserunt
               </p>
-              <p className=" flex gap-2 items-center text-sm">
+              <p className=" flex gap-2 items-center text-sm text-slate-600">
                 <IoIosCheckmarkCircle color="#6F42C1" />
                 Deserunt ullamco est sit
               </p>
-              <p className=" flex gap-2 items-center text-sm">
+              <p className=" flex gap-2 items-center text-sm text-slate-600">
                 <IoIosCheckmarkCircle color="#6F42C1" />
                 Velit officia consequat duis enim
               </p>
@@ -81,21 +81,21 @@ export default function Coronavirus() {
             <h1 className="text-xl text-[#6F42C1] font-bold">
               Why is it Dangerous?
             </h1>
-            <p className="text-sm font-normal">
+            <p className="text-sm font-normal text-slate-600">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation
             </p>
             <div className="w-full flex flex-col gap-2 pb-10">
-              <p className=" flex gap-2 items-center text-sm">
+              <p className=" flex gap-2 items-center text-sm text-slate-600">
                 <IoIosCheckmarkCircle color="#6F42C1" />
                 Amet minim mollit non deserunt
               </p>
-              <p className=" flex gap-2 items-center text-sm">
+              <p className=" flex gap-2 items-center text-sm text-slate-600">
                 <IoIosCheckmarkCircle color="#6F42C1" />
                 Deserunt ullamco est sit
               </p>
-              <p className=" flex gap-2 items-center text-sm">
+              <p className=" flex gap-2 items-center text-sm text-slate-600">
                 <IoIosCheckmarkCircle color="#6F42C1" />
                 Velit officia consequat duis enim
               </p>
@@ -130,7 +130,9 @@ export default function Coronavirus() {
             </div>
             <div className="flex flex-col gap-2 items-start justify-center">
               <h3 className="text-xl font-semibold text-[#6F42C1]">symptoms</h3>
-              <p className="text-sm font-normal w-40">Amet minim mollit non</p>
+              <p className="text-sm text-slate-600 font-normal w-40">
+                Amet minim mollit non
+              </p>
             </div>
           </div>
           <div className="flex flex-row gap-5 items-center">
@@ -146,7 +148,9 @@ export default function Coronavirus() {
               <h3 className="text-xl font-semibold text-[#6F42C1]">
                 protection
               </h3>
-              <p className="text-sm font-normal w-40">Amet minim mollit non</p>
+              <p className="text-sm font-normal text-slate-600 w-40">
+                Amet minim mollit non
+              </p>
             </div>
           </div>
         </div>
@@ -162,7 +166,9 @@ export default function Coronavirus() {
             </div>
             <div className="flex flex-col gap-2 items-start justify-center">
               <h3 className="text-xl font-semibold text-[#6F42C1]">security</h3>
-              <p className="text-sm font-normal w-40">Amet minim mollit non </p>
+              <p className="text-sm font-normal text-slate-600 w-40">
+                Amet minim mollit non{" "}
+              </p>
             </div>
           </div>
           <div className="flex flex-row gap-5 items-center">
@@ -178,7 +184,9 @@ export default function Coronavirus() {
               <h3 className="text-xl font-semibold text-[#6F42C1]">
                 treatment
               </h3>
-              <p className="text-sm font-normal w-40">Amet minim mollit non</p>
+              <p className="text-sm font-normal text-slate-600 w-40">
+                Amet minim mollit non
+              </p>
             </div>
           </div>
         </div>

@@ -3,11 +3,11 @@ import { IoIosCheckmarkCircle } from "react-icons/io";
 import Button from "./Button";
 export default function prevernt() {
   return (
-    <section className="px-5 md:px-10 lg:px-20 py-10 bg-[#F0ECF9] ">
+    <section className="px-4 gap-5 md:px-10 lg:px-20 py-10 bg-[#F0ECF9]  ">
       <div className="flex flex-col md:flex-row lg:flex-row items-start">
         <div className="h-full w-full">
-          <div className="grid grid-cols-2 grid-rows-2 mt-4">
-            <div className="bg-white mt-14 h-60 w-40 flex flex-col rounded-lg shadow-2xl ">
+          <div className="grid grid-cols-2 grid-rows-2 items-center justify-center  mt-4">
+            <div className="bg-white mt-14 h-60 w-40  flex flex-col rounded-lg shadow-2xl ">
               <div className="flex  items-center justify-center bg-[#E2D9F3] h-[40%] w-full rounded-t-lg">
                 <GoHomeFill size={60} color="#6F42C1" />
               </div>
@@ -71,15 +71,15 @@ export default function prevernt() {
             sint.
           </p>
           <div className="w-full flex flex-col gap-2 pb-10">
-            <p className=" flex gap-2 items-center text-sm">
+            <p className=" flex gap-2 items-center text-sm text-slate-600">
               <IoIosCheckmarkCircle color="#6F42C1" />
               Amet minim mollit non deserunt
             </p>
-            <p className=" flex gap-2 items-center text-sm">
+            <p className=" flex gap-2 items-center text-sm text-slate-600">
               <IoIosCheckmarkCircle color="#6F42C1" />
               Deserunt ullamco est sit
             </p>
-            <p className=" flex gap-2 items-center text-sm">
+            <p className=" flex gap-2 items-center text-sm text-slate-600">
               <IoIosCheckmarkCircle color="#6F42C1" />
               Velit officia consequat duis enim
             </p>

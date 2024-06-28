@@ -9,7 +9,7 @@ export default function Protect() {
         <h2 className="text-3xl font-bold text-[#6F42C1]">
           How to protect yourself
         </h2>
-        <p className="text-xl font-normal">
+        <p className="text-xl font-normal text-slate-600">
           Amet minim mollit non deserunt ullamco est sit do amet sint officia.
         </p>
       </div>
@@ -23,7 +23,7 @@ export default function Protect() {
               {section.links.map((link) => (
                 <li
                   key={link}
-                  className="text-sm font-normal flex gap-2 items-center"
+                  className="text-sm font-normal text-slate-600 flex gap-2 items-center"
                 >
                   <IoIosCheckmarkCircle color="#6F42C1" size={20} />
                   {link}
